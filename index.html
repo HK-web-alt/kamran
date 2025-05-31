@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HK Electric - Electronics Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .container {
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    .footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HK Electric</h1>
+    <p>Powering Your Life with Smart Tech</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Cart</a>
+    <a href="#">Checkout</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Smartphone" alt="Smartphone">
+        <h3>Smartphone XYZ</h3>
+        <p>PKR 29,999</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Laptop" alt="Laptop">
+        <h3>Laptop ABC</h3>
+        <p>PKR 89,999</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Headphones" alt="Headphones">
+        <h3>Wireless Headphones</h3>
+        <p>PKR 5,499</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 HK Electric. All rights reserved.</p>
+  </div>
+</body>
+</html>
